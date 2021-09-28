@@ -1,21 +1,63 @@
 body {
 
-  background-color: #252524;
+  background-color: #202124;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .middle {
-padding-top: 30rem;
-position: absolute;
+
+position: fixed;
+padding-bottom: 6rem;
 }
 
 .btn {
   display:inline-block;
-  padding-top: 1rem;
-  padding-left: 1.8rem;
+  position: relative;
+  padding: 1.9rem;
 }
 
-.search {
-  color: aqua;
+.button {
+  color: white;
+  background-color:#303134;
+  height: 40px;
+  margin: 11px 2.4px;
+  border: 0;
+  border-radius: 4px;
 }
+
+.bar {
+  padding-top: 1.7rem;
+  display: flex;
+  color: #202124;
+}
+
+
+  .nav, a {
+    position: relative;
+    width: 95%;
+    top: 0;
+    left: 0;
+    color: #f2f2f2;
+    text-align: right;
+    padding: 14px 5px;
+    text-decoration: none;
+    font-family: 'Exo 2', sans-serif;
+    padding-bottom: 46rem;
+    font-size: 13px;
+}
+.navbar, a:hover {
+  color: gray;
+}
+
+  .search {
+    border: 1px solid grey;
+    border-radius: 40px;
+    height: 47px;
+    width: 100%;
+    padding: 2px 23px 2px 30px;
+    outline: 0;
+    background-color: transparent;
+    color: white;
+    align-content: center;
+  }
